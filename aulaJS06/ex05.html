@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos / Funções</title>
+<style>
+    body{
+        background-color: darkorange;
+        font-size: 2em;
+        color:aliceblue;
+    }
+</style>
+</head>
+<body>
+    <h3>Métodos LENGTH, UPPERCASE( ) E LOWERCASE( )</h3>
+
+<script>
+    //Perguntar o nome de uma pessoa:
+   /* var nome = window.prompt('Digite seu nome: ')
+    document.writeln(`Olá ${nome}. Seu nome possui ${nome.length} letras.`) 
+    document.writeln(`Seu nome em maiúscula é ${nome.toUpperCase()}`)*/
+    //Ou, posso Escrever o Código com TAG HTML para pular a linha: 
+    var nome = window.prompt('Digite seu nome: ')
+    document.write(`Olá ${nome}, seu nome possui ${nome.length} letras.<br/>`) 
+    document.write(`Seu nome me maiúscula é ${nome.toUpperCase()}`)
+    /*var nome = window.prompt('Digite seu nome: ')
+    document.writeln(`Olá ${nome}, seu nome possui ${nome.length} letras.`)
+    document.writeln(`Seu nome em minúsculas é ${nome.toLowerCase()}`)*/
+</script>
+</body>
+<!--DOCUMENT.WRITE escreve na tela e substitui o WINDOW.ALERT, que retorna em janela-->
+<!--DOCUMENT.WRITELN escreve na tela e PULA uma LINHA-->
+<!--Dentro dos códigos JavaScript posso usar Tags HTML-->
+</html>
